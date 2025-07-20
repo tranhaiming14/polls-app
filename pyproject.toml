@@ -7,6 +7,8 @@ name = "django-polls"
 version = "0.1"
 dependencies = [
     "django>=3.0",  # Replace "X.Y" as appropriate
+    "gunicorn >= 21.2.0"
+
 ]
 description = "A Django app to conduct web-based polls."
 readme = "README.rst"
